@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '@/assets/logo.png'
 
 const Header: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const Header: React.FC = () => {
           <div
             className="flex items-center hover:opacity-80 transition-opacity gap-1 cursor-pointer"
           >
-            <img src="/images/logo.png" width={40} height={40}></img>
+            <img src={logo} alt="Logo" width={40} height={40}></img>
             <span className="text-2xl font-bold text-gray-900">VDZ Player</span>
           </div>          
         </div>

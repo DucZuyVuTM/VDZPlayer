@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Download, Camera } from 'lucide-react';
 
-import { API_BASE_URL } from '../../env';
+import { API_BASE_URL } from '@/env';
 
 interface VideoData {
   videoUrl: string;
