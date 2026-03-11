@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Download, Camera } from 'lucide-react';
 
-import { API_BASE_URL } from '../env';
+import { API_BASE_URL } from '../../env';
 
 interface VideoData {
   videoUrl: string;
@@ -158,7 +158,7 @@ function FacebookPlayer() {
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                   <label htmlFor="videoUrl" className="form-label">
-                    Enter URL video Facebook
+                    Enter Video URL
                   </label>
                   <div className="input-group">
                     <input
